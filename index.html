@@ -16,8 +16,27 @@
             <button>Dark Mode</button>
         </div>
     </nav>
-    <header>
-        
+    <header class="container">
+        <form>
+            <input type="text" placeholder="Ingresa el País">
+        </form>
+        <div>
+            <select>
+                <option value="">Filter by Region</option>
+                <option value="">Todos</option>
+                <option value="Africa">África</option>
+                <option value="Americas">América</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europa</option>
+                <option value="Oceania">Oceanía</option>
+            </select>
+        </div>
     </header>
+    <main class="container grid" id="banderas">
+    </main>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/custom-select.js"></script>
+    <script src="js/formulario.js"></script>
 </body>
 </html>
